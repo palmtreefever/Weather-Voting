@@ -1,0 +1,16 @@
+name: WeatherVoting
+main: com.palmtreefever.WeatherVoting.Main
+version: 1.0
+api-version: 1.15
+author: palmtreefever
+description: Allows players to vote on the weather
+
+commands:
+  weathervoteclear:
+     usage: /weathervoteclear
+     description: Vote to clear the current weather
+     permission: WeatherVote.Clear
+  weathervotekeep:
+     usage: /weathervotekeep
+     description: Vote to keep the current weather
+     permission: WeatherVote.Keep
